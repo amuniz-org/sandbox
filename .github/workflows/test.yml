@@ -19,4 +19,4 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Print job name
-        run: "echo \"The current job name is: $GITHUB_JOB\""
+        run: echo The current job name is ${{ github.job }}
